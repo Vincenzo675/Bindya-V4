@@ -6,7 +6,7 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const defaultOwner = '923444844060';
+const defaultOwner = '916909297247';
 
 
 // Check for the OWNERS environment variable; if not found, use the default
@@ -14,24 +14,24 @@ const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || 'your number';
 
 const ownerlist = ownervb.split(';');
 
-global.owner = [];
+aglobal.owner = [];
 for (let i = 0; i < ownerlist.length; i++) {
     global.owner.push([ownerlist[i], true]);
 }
 //
-global.botname = process.env.BOTNAME || 'ULTRA-MD';
-global.pairingNumber = process.env.BOT_NUMBER || 'your number';  // put your number here
+global.botname = process.env.BOTNAME || '𝓠𝓾𝓮𝓮𝓷 𝓑𝓲𝓷𝓭𝔂𝓪';
+global.pairingNumber = process.env.BOT_NUMBER || '918787487369';  // put your number here
 global.SESSION_ID = process.env.SESSION_ID || 'session id';  // put your session id here
 
-global.mods = []
-global.prems = []
-global.allowed = ['923444844060', '923051391007']
+global.mods = ['916909297247','918787487369']
+global.prems = ['916909297247','918787487369']
+global.allowed = ['916909297247', '918787487369']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = [
   '29d4b59a4aa687ca',
   '5LTV57azwaid7dXfz5fzJu',
-  'cb15ed422c71a2fb',
+  'cb15ed422c71a2fb',@
   '5bd33b276d41d6b4',
   'HIRO',
   'kurrxd09',
@@ -42,7 +42,7 @@ global.keysneoxrrr = ['5VC9rvNx', 'cfALv5']
 global.keysneoxr = keysneoxrrr[Math.floor(keysneoxrrr.length * Math.random())]
 global.lolkeysapi = ['GataDios']
 
-global.canal = 'https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07'
+global.canal = 'https://whatsapp.com/channel/0029VarkfOSLikgHhXPsnA2B'
 
 
 global.APIs = {
@@ -73,21 +73,21 @@ global.APIKeys = {
 
 // Sticker WM
 global.premium = 'true'
-global.packname = 'GLOBAL-MD'
-global.author = 'GlobalTechInfo'
-global.menuvid = 'https://i.imgur.com/2U2K9YA.mp4'
-global.igfg = ' Follow on Instagram\nhttps://www.instagram.com/global.techinfo'
-global.dygp = 'https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07'
-global.fgsc = 'https://github.com/GlobalTechInfo/ULTRA-MD'
-global.fgyt = 'https://youtube.com/@GlobalTechInfo'
-global.fgpyp = 'https://youtube.com/@GlobalTechInfo'
-global.fglog = 'https://i.ibb.co/G2dh9cB/qasim.jpg'
+global.packname = '𝓠𝓾𝓮𝓮𝓷 𝓑𝓲𝓷𝓭𝔂𝓪'
+global.author = '~V i Nㄷㅌ'
+global.menuvid = 'https://cdn.ironman.my.id/i/vl7541.mp4'
+global.igfg = ' Follow on Instagram\nhttps://www.instagram.com/craftastic_land_'
+global.dygp = 'https://whatsapp.com/channel/0029VarkfOSLikgHhXPsnA2B'
+global.fgsc = 'https://github.com/Vincenzo675/Bindya-V4'
+global.fgyt = 'https://youtube.com/@CraftasticLand'
+global.fgpyp = 'https://youtube.com/@CraftasticLand'
+global.fglog = 'https://cdn.ironman.my.id/i/195mv0.jpeg'
 global.thumb = fs.readFileSync('./assets/qasim.jpg')
 
 global.wait = '⏳'
 global.rwait = '⏳'
 global.dmoji = '🤭'
-global.done = '✅'
+global.done = '✔️'
 global.error = '❌'
 global.xmoji = '🤩'
 
