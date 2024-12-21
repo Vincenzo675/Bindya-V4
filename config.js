@@ -21,7 +21,7 @@ for (let i = 0; i < ownerlist.length; i++) {
 //
 global.botname = process.env.BOTNAME || '𝓠𝓾𝓮𝓮𝓷 𝓑𝓲𝓷𝓭𝔂𝓪';
 global.pairingNumber = process.env.BOT_NUMBER || '918787487369';  // put your number here
-global.SESSION_ID = process.env.SESSION_ID || 'session id';  // put your session id here
+global.SESSION_ID = process.env.SESSION_ID || 'qUBHCYqB#kj7b4eJywJxNRStYHHd0NUkxVZLo6bphUds-SA5eUk8';  // put your session id here
 
 global.mods = ['916909297247','918787487369']
 global.prems = ['916909297247','918787487369']
